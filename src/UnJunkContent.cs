@@ -17,7 +17,6 @@ public class UnJunkContent : BaseUnityPlugin
 	public void Awake()
 	{
 		RoR2BepInExPack.VanillaFixes.FixMultiplayerCompatibilityWithVanilla._hook.Undo();
-		RoR2BepInExPack.VanillaFixes.FixMultiplayerCompatibilityWithVanilla._hook = null;
 	}
 }
 
